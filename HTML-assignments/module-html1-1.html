@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <style>
+        .red
+        {
+            background: red;
+        }
+        td
+        {
+            text-align: center;
+        }
+        .form
+        {
+            background-color: rgba(133, 227, 244, 0.886);
+        }
+        .contact
+        {
+            background: rgb(240, 86, 207);
+        }
+        .image
+        {
+            height: 400px;
+            width: 100%;
+        }
+        .image2
+        {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+    <table border="1" cellspacing="0">
+        <tr>
+            <td rowspan="2"><a href="home.html">Home</a></td>
+            <td rowspan="2"><a href="about.html">about</a></td>
+            <td rowspan="2"><a href="contact.html">contact</a></td>
+            <td rowspan="2"><a href="help.html">help</a></td>
+            <td rowspan="2"><a href="store.html">store</a></td>
+            <td class="red"><a href="document.html">document</a></td>
+        </tr>
+        <tr>
+            <td class="red"><a href="content.html">content</a></td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <img src="image1.jpeg" class="image">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6" class="contact">contact-us page</td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <img src="image2.jpeg" class="image image2">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="form">first-name<input type="text" placeholder="Enter your name"></td>
+            <td colspan="3" class="form">last-name<input type="text" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="form">Email-id<input type="text" placeholder="Enter your email id"></td>
+            <td colspan="3" class="form">Phone-no<input type="text" placeholder="Enter your phone no."></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="form">city<select name="city">
+                <option hidden>--select city--</option>
+                <option value="Vadodra">Vadodra</option>
+                <option value="Surat">Surat</option>
+                <option value="Ahmedabad" selected>Ahmedabad</option>
+            </select>
+            </td>
+            <td colspan="3" class="form">Gender MALE<input type="radio" name="gender">
+                FEMALE<input type="radio" name="gender">
+                OTHER<input type="radio" name="gender">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <embed src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58750.94621574514!2d72.53537414559536!3d23.02619033451439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stops%20technologies%20ahmedabad!5e0!3m2!1sen!2sin!4v1724839499940!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </td>
+            <td colspan="3">
+                <embed width="560" height="500" src="https://www.youtube.com/embed/Y9pgsPW-KIE?si=IOSfm-IBFF4YwwF2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></embed>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
