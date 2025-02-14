@@ -1,0 +1,11 @@
+@media (max-width: 700px)
+{
+    .namelogo
+    {
+        padding-left: 20px;
+    }
+    .menu
+    {
+        text-align: left;
+    }
+}

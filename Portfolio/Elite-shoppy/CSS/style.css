@@ -1,0 +1,158 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+/*-------------firstrow------------*/
+.first-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.first-row .first-col
+{
+    flex-basis: 250px;
+    flex-grow: 1;
+    border-right: 1px solid gray;
+    font-size: small;
+    letter-spacing: 2px;
+}
+.fa-unlock, .fa-pen-to-square, .fa-phone, .fa-envelope
+{
+    color: #2fdab8;
+    padding-right: 7px;
+}
+/*-------------header------------*/
+.second-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.second-row .second-col
+{
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+.second-col p
+{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.second-col span
+{
+    background: black;
+    color: white;
+    padding: 0 15px;
+}
+.second-col ul li
+{
+    list-style: none;
+    display: inline;
+}
+.second-col ul li a
+{
+    text-decoration: none;
+}
+/*-------------navbar------------*/
+.nav-row
+{
+    display: grid;
+    grid-template-columns: 75fr 25fr;
+}
+.nav-row .nav-list
+{
+    background: black;
+}
+.nav-list ul li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 20px 40px;
+    position: relative;
+}
+.nav-list a
+{
+    color: white;
+    text-decoration: none;
+}
+.nav-row .nav-cart
+{
+    background: #2fdab8;
+    text-align: center;
+}
+.nav-cart .fa-cart-arrow-down
+{
+    background: #17c3a2;
+    width: 48px;
+    height: 43px;
+    font-size: 24px;
+    color: #000;
+    line-height: 2;
+    margin-top: 10px;
+}
+.nav-col li::after
+{
+    content: "";
+    height: 5px;
+    width: 0;
+    background: #2fdab8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 15px;
+    transition: 0.43s;
+}
+.nav-col li:hover::after
+{
+    width: 80%;
+}
+.nav-col .default-home::after
+{
+    width: 80%;
+}
+.shortcode
+{
+    position: relative;
+}
+.shortcode .sub-short
+{
+    position: absolute;
+    top: 61px;
+    left: 0;
+    background: white;
+    text-align: center;
+    line-height: 0.5;
+    display: none;
+}
+.sub-short .sub-a
+{
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+.sub-short .border-a
+{
+    border-bottom: 1px solid #e7e5e5;
+}
+.sub-short li:hover
+{
+    background-color:#2fdab8;
+}
+.sub-short li:hover a
+{
+    color: white;
+}
+.sub-short li::after
+{
+    content: "";
+    height: 0;
+}

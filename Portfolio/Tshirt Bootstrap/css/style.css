@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link
+{
+    color: black;
+}
+.bg
+{
+    background-color: #a8d741
+}
+.pad-top-bottom
+{
+    padding: 100px 0;
+}
+.font-size
+{
+    font-size: 90px;
+}
+.hero-sec
+{
+    margin-bottom: 100px;
+}
+hr
+{
+    font-weight: bold;
+    opacity: 0.7;
+}
+.fontcolor
+{
+    color: #a8d741
+}
+.buy-btn:hover
+{
+    background: #a8d741;
+}
+.work-card-col
+{
+    flex-basis: 500px;
+}
+.work-col 
+{
+    flex-basis: 530px;
+}
+.card-title-unique
+{
+    font-size: 60px;
+}
